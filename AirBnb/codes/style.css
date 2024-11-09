@@ -1,0 +1,267 @@
+.header{
+    height: 80px;
+    width: 1450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header>.logodiv{
+    height: 74px;
+    width: 205px;
+    background-image:url(airbnblogo.jpeg);
+    background-size: cover;
+    margin: 0px 0px 0px 50px;
+}
+
+.header>.airbnb_place{
+    font-size: 19x;
+    font-weight: bold;
+    margin:20px 0px 0px 0px;
+    color: #000;
+    height: 74px;
+    width: 205px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.location_contents{
+    height: 500px;
+    width: 1500px;
+    display: inline-flex;
+}
+
+.location_contents>.location{
+    height: 350px;
+    width: 400px;
+    background-color: white;
+    border: 2px solid white;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    margin: 100px 20px 100px 50px;
+    border-radius: 10px;
+    transform: translateX(25%);
+    z-index: 1;
+}
+
+#content_para{
+    margin: 30px 30px 30px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lh{
+    height: 55px;
+    width: 335px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    margin:5px 0px 0px -2px;
+}
+
+.lh:focus-within{
+    border: 2px solid black ;
+}
+
+.checkin-date{
+    height: 55px;
+    width: 165px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    margin:5px 2px 0px -2px;
+}
+
+.checkout-date{
+    height: 55px;
+    width: 165px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    margin:5px 0px 0px 2px;
+}
+
+.loc_and_date{
+    margin:10px 0px 1px 10px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.input_location{
+    border-style: none;
+    outline: none; 
+    margin:0px 0px 5px 8px; 
+    width: 250px; 
+    font-size: 17px;
+    font-family: Arial;
+}
+
+.dates{
+    border-style: none;
+    outline: none; 
+    margin:0px 0px 5px 8px; 
+    font-size: 17px;
+    font-family: Arial;
+
+}
+
+#button_location{
+    height: 55px;
+    width: 335px;
+    border-radius: 10px;
+    margin:5px 0px 0px -2px;
+    background-color:#f43454;
+    font-family: Arial;
+    font-size:17px;
+    color: white;
+}
+
+.bed_image{
+    height: 500px;
+    width: 970px;
+    margin: 0px 100px 0px 0px;
+    border-radius: 10px;
+    background-image: url(airbnb_hotel.jpg);
+    background-size: cover;
+    z-index: 0;
+}
+
+.hotelsbox{
+    height: 500px;
+    width: 1400px;
+    display: flex;
+    justify-content:space-evenly;
+    border-radius: 10px;
+    margin-left: 50px;
+    
+}
+
+.flats_cottage_house{
+    height: 390px;
+    width: 1400px;
+    display: flex;
+    justify-content:space-around;
+    border-radius: 10px;
+    
+}
+
+.hotels{
+    height: 250px;
+    width: 330px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.guest_favourite{
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 20px;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    padding-top: 5px;
+    color: black;
+    background-color: white;
+    font-family:Arial;
+    font-size: small;
+}
+
+.contentofstay{
+    font-family: Arial;
+    color: black;
+}
+
+.outerboxofhotel{
+    height: 480px;
+    width: 330px;
+}
+
+.outerboxoffch{
+    height: 300px;
+    width: 330px;
+}
+
+.titles{
+    font-family: Arial;
+    color: black;
+    margin-top: 5px;
+}
+
+.paragraphcontents{
+    font-family: Arial;
+    color: rgba(0,0,0,0.5);
+    margin-top: -10px;
+    font-weight:600;
+}
+
+.fch{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.amenties{
+    height: 180px;
+    width:1400px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.no_of_amenties{
+    height: 90px;
+    width: 200px;
+    border-radius: 10px;
+    margin-right: 15px;
+    padding: 15px 0px 0px 15px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.icons_of_amenties{
+    font-size: large;
+    font-family: Arial;
+}
+
+.hotelsbox2{
+    height: 700px;
+    width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+.showall{
+    height: 30px;
+    width: 90px;
+    font-family: Arial;
+    color: black;
+    border: 1px solid black;
+    display: flex;
+    text-align: center;
+    padding: 15px 0px 2px 15px;
+    margin-left: 60px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.airbnb{
+    margin-left: 65px;
+    font-family: Arial;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-right: 10px;
+}
+
+footer{
+    font-family: Arial;
+    margin-left: 65px;
+}
+
+.foot{
+    color: black;
+}
